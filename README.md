@@ -13,6 +13,7 @@ This repesotory contains scripts that demonstrate the basics of managing DICOM a
 
 5.  `First_order_statistics.py`: After every preprocessing step this script calculates first order statistics of the NIfTI files.
 
+6.  `GLCM.py`: This script calculates the GLCM (Gray-Level Co-Occurrence Matrix) of the masked NIfTI image. It uses the [0, 1, 0] positional operator.
 
 Dataset
 -------

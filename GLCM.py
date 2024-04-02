@@ -22,7 +22,7 @@ glcm = np.zeros(
 print(glcm)
 
 # x, y, z
-pos_op = [1, 1, 0]
+pos_op = [0, 1, 0]
 
 for i in range(1, img_data.shape[0] - 2):
     for j in range(1, img_data.shape[1] - 2):
